@@ -1,0 +1,36 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "My API",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "https://api.healthwealthsafe.net"
+      },
+      {
+        "url": "https://api-staging.healthwealthsafe.net"
+        
+      },
+      {
+        "url": "https://api-uat.healthwealthsafe.net"
+      },
+      {
+        "url": "http://localhost:3000"
+        
+      }
+    ],
+    "paths": {
+      "/api/ping": {
+        "get": {
+          "summary": "ping api",
+          "responses": {
+            "200": {
+              "description": "Successful response"
+            }
+          }
+        }
+      }
+    }
+  }
+  
